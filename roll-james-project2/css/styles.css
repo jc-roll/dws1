@@ -1,0 +1,59 @@
+body {
+	background-color: #FCDAAB;
+}
+
+h1 {
+	font-family: impact, arial, sans-serif;
+	font-size: 2.5em;
+	text-shadow: 4px 5px 10px rgba(98,195,249,1);
+	background-color: ;#1c5f7c;
+}
+
+#intro { 
+	font-family: verdana, georgia, sans-serif;
+	color: #046744;
+	border: 2px solid #000;
+}	
+
+#Email {
+		color:brown;
+}
+
+p strong {
+	color: #000;
+	font-size: 1.5em;
+	opacity: .3;
+}
+
+h2, h3 {
+  	font-family: verdana, sans-serif; 
+  	color: #1c5f7c;
+  	text-shadow: 3px 3px 8px #A808E2;
+}
+	
+li {
+	font-family: "courier new", courier, monospace;
+	color: rgba(98,195,249,1);
+	line-height: 1.8;
+	text-decoration: underline;	
+}
+
+a:link{
+	color:#0840E7;
+}
+
+a:visited{
+	color:#000;
+
+}
+
+a:hover{
+	color:#08DD28;
+	text-decoration: underline;
+}
+
+q {
+		font-family: arial;
+		color: #A808E2;
+}
+	
