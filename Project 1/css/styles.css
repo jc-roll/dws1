@@ -2,20 +2,31 @@ body {
 	background-color: #FCDAAB;
 }
 
+h1 { 
+	width:300px;
+}
+
 h1 {
 	font-family: impact, arial, sans-serif;
 	font-size: 2.5em;
 	text-shadow: 4px 5px 10px rgba(98,195,249,1);
+	margin: auto;
 }
 
 #intro { 
 	font-family: verdana, georgia, sans-serif;
 	color: #046744;
+	font-size:18px;
 	border: 2px solid #000;
+	border-style: dashed;
+	padding: 10px;
+	
 }	
 
 #Email {
-		color:brown;
+	color:brown;
+	padding:3px 6px;
+	font-size: 1.4em;
 }
 
 p strong {
@@ -28,13 +39,7 @@ h2, h3 {
   	font-family: verdana, sans-serif; 
   	color: #1c5f7c;
   	text-shadow: 3px 3px 8px #A808E2;
-}
-	
-li {
-	font-family: "courier new", courier, monospace;
-	color: rgba(98,195,249,1);
-	line-height: 1.8;
-	text-decoration: underline;	
+  	padding: 14px 10px;
 }
 
 a:link{
@@ -51,13 +56,26 @@ a:hover{
 	text-decoration: underline;
 }
 a:active{
-color: #F00;
-	font-size: 1.5em;
-	opacity: .3;
+	color:#000
 }
 
 q {
 		font-family: arial;
 		color: #A808E2;
 }
+
+#one li {
+	display:inline;
+	padding: 2px 8px;
+	font-size:20px;
+	text-shadow: 1px 1px 1px #000;
+	color:#000;
 	
+}	
+
+li {
+	font-family: "courier new", courier, monospace;
+	color: rgba(98,195,249,2);
+	line-height: 1.8;
+	text-decoration: underline;	
+}
