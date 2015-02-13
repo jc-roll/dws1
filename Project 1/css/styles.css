@@ -1,5 +1,8 @@
+/*Basic back ground color and padding to center*/
 body {
 	background-color: #FCDAAB;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 h1 { 
@@ -8,11 +11,11 @@ h1 {
 
 h1 {
 	font-family: impact, arial, sans-serif;
-	font-size: 2.5em;
+	font-size: 2.6em;
 	text-shadow: 4px 5px 10px rgba(98,195,249,1);
 	margin: auto;
 }
-
+/*style for id=intro*/
 #intro { 
 	font-family: verdana, georgia, sans-serif;
 	color: #046744;
@@ -22,7 +25,7 @@ h1 {
 	padding: 10px;
 	
 }	
-
+/*style for id=Email*/
 #Email {
 	color:brown;
 	padding:3px 6px;
@@ -41,41 +44,74 @@ h2, h3 {
   	text-shadow: 3px 3px 8px #A808E2;
   	padding: 14px 10px;
 }
-
+/* This is the start of the colored links*/
 a:link{
 	color:#0840E7;
 }
 
 a:visited{
 	color:#000;
-
 }
 
 a:hover{
 	color:#08DD28;
 	text-decoration: underline;
 }
-a:active{
-	color:#000
-}
 
+a:active{
+	color:#F00
+}
+/*End of colored links*/
 q {
-		font-family: arial;
-		color: #A808E2;
+	font-family: arial;
+	color: #A808E2;
 }
 
 #one li {
 	display:inline;
-	padding: 2px 8px;
+	padding: 10px 50px;
 	font-size:20px;
 	text-shadow: 1px 1px 1px #000;
 	color:#000;
-	
+	border: 3px solid #000;
+	border-radius:10px;
 }	
 
 li {
-	font-family: "courier new", courier, monospace;
-	color: rgba(98,195,249,2);
-	line-height: 1.8;
-	text-decoration: underline;	
+	font-family: 'Bree Serif', serif;
+	color: #000;
+	line-height: 1.8;	
+	font-size:22px;
+	background: #fff;
 }
+/* start of styling elements*/
+#two {
+	background-color: rgba(98,195,249,2);
+	border-radius: 6px 12px;
+	box-shadow: 10px 10px 5px #888888
+}
+
+#three {
+	background-color: rgba(98,195,249,2);
+	border-radius: 6px 12px;
+	box-shadow: 10px 10px 5px #888888
+}
+
+#six{
+	background-color: rgba(98,195,249,2);
+	border-radius: 6px 12px;
+	box-shadow: 10px 10px 5px #888888
+}
+
+#seven{
+	background-color: rgba(98,195,249,2);
+	border-radius: 6px 12px;
+	box-shadow: 10px 10px 5px #888888
+}
+
+#eight {
+	background-color: rgba(98,195,249,2);
+	border-radius: 6px 12px;
+	box-shadow: 10px 10px 5px #888888
+}
+/*end of styling elements*/
