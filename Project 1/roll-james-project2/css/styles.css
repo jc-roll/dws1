@@ -5,15 +5,12 @@ body {
 	padding-right: 15%;
 }
 
-h1 { 
-	width:300px;
-}
-
 h1 {
 	font-family: impact, arial, sans-serif;
 	font-size: 2.6em;
 	text-shadow: 4px 5px 10px rgba(98,195,249,1);
 	margin: auto;
+	width:300px;
 }
 /*style for id=intro*/
 #intro { 
@@ -23,7 +20,6 @@ h1 {
 	border: 2px solid #000;
 	border-style: dashed;
 	padding: 10px;
-	
 }	
 /*style for id=Email*/
 #Email {
