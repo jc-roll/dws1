@@ -21,7 +21,7 @@ h1 {
 	font-family: impact, arial, sans-serif;
 	font-size: 2.6m;
 	text-align: center;
-	text-shadow: .4% .5% 1% rgba(98,195,249,1);
+	text-shadow: 3px 3px 8px #A808E2;
 	margin: 0 auto;
 	width: 31%;
 }
@@ -30,7 +30,10 @@ h1 {
 	font-family: verdana, georgia, sans-serif;
 	color: #046744;
 	font-size: 1.8m;
-	padding: 1%;
+	line-height: normal;
+	font-style: oblique;
+	font-weight: bold;
+	text-shadow: 3px 3px 8px #fff;
 	width: 100%;
 	margin: 1.4%;
 	float: left;
@@ -46,10 +49,11 @@ h1 {
 p strong {
 	color: #000;
 	font-size: .8m;
+	font-style: oblique;
 	opacity: .7;
 }
 
-h2, h3 {
+h2, h3, h4 {
   	font-family: verdana, sans-serif; 
   	color: #1c5f7c;
   	text-shadow: 3px 3px 8px #A808E2;
@@ -82,7 +86,9 @@ li {
 	font-family: 'Bree Serif', serif;
 	color: #000;
 	line-height: 1.8;	
-	background: rgba(98,195,249,2);
+	background: linear-gradient(135deg, #e1ffff 0%,#e1ffff 7%,#e1ffff 12%,#fdffff 12%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+	text-shadow: 3px 3px 8px #fff;
+	opacity: .8;
 }
 /* start of styling elements*/
 
@@ -95,9 +101,10 @@ li {
 	color:#000;
 	border: 1px solid #000;
 	border-radius:4px;
+	opacity: .8;
 }
 #two {
-	background-color: rgba(98,195,249,2);
+	background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 14%,#a0d8ef 77%);
 	border-radius: 6px 12px;
 	box-shadow: 10px 10px 5px #888888;
 	padding: 1% 5% 1% 1%;
@@ -106,10 +113,11 @@ li {
     width: 36%;
     margin: 1%;
     font-size:22.5m;
+    opacity: .8;
 }
 
 #three {
-	background-color: rgba(98,195,249,2);
+	background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 14%,#a0d8ef 77%);
 	border-radius: 6px 12px;
 	box-shadow: 10px 10px 5px #888888;
 	padding: 1% 5% 1% 1%;
@@ -118,6 +126,7 @@ li {
     width: 36%;
     margin: 1%;
     font-size:20m;
+    opacity: .8;
 }
 
 #twothree {
@@ -132,23 +141,26 @@ li {
     font-size:20m;
 }
 #six {
-	background-color: rgba(98,195,249,2);
+	background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 14%,#a0d8ef 77%);
 	border-radius: 6px 12px;
 	box-shadow: 10px 10px 5px #888888;
 	width: 52%;
+	opacity: .8;
 }
 
 #seven{
-	background-color: rgba(98,195,249,2);
+	background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 14%,#a0d8ef 77%);
 	border-radius: 6px 12px;
 	box-shadow: 10px 10px 5px #888888;
 	width: 52%;
+	opacity: .8;
 }
 
 #eight {
-	background-color: rgba(98,195,249,2);
+	background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 14%,#a0d8ef 77%);
 	border-radius: 6px 12px;
 	box-shadow: 10px 10px 5px #888888;
 	width: 52%;
+	opacity: .8;
 }
 /*end of styling elements*/
