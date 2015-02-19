@@ -1,44 +1,59 @@
-/*Basic back ground color and padding to center*/
+/*Basic back ground img and center*/
 body {
-	background-color: #FCDAAB;
-	padding-left: 15%;
-	padding-right: 15%;
+	margin: 0 auto;
+	width: 90%;
+	background: url("../images/beachsand.jpg");/* background sand image*/
+	background-repeat: repeat;
+
 }
+#page {
+	width:90%;
+	border: 8px double #000;
+	padding: 4%;
+	margin: 1% auto;
+	overflow: hidden;
+	background: url("../images/volleyball.png") no-repeat;
+	
+	
+}	
 
 h1 {
 	font-family: impact, arial, sans-serif;
-	font-size: 2.6em;
-	text-shadow: 4px 5px 10px rgba(98,195,249,1);
-	margin: auto;
-	width:300px;
+	font-size: 2.6m;
+	text-align: center;
+	text-shadow: .4% .5% 1% rgba(98,195,249,1);
+	margin: 0 auto;
+	width: 31%;
 }
 /*style for id=intro*/
 #intro { 
 	font-family: verdana, georgia, sans-serif;
 	color: #046744;
-	font-size:18px;
-	border: 2px solid #000;
-	border-style: dashed;
-	padding: 10px;
+	font-size: 1.8m;
+	padding: 1%;
+	width: 100%;
+	margin: 1.4%;
+	float: left;
 }	
+
 /*style for id=Email*/
 #Email {
 	color:brown;
-	padding:3px 6px;
-	font-size: 1.4em;
+	padding: .2% .3%;
+	font-size: 1.4m;
 }
 
 p strong {
 	color: #000;
-	font-size: 1.5em;
-	opacity: .3;
+	font-size: .8m;
+	opacity: .7;
 }
 
 h2, h3 {
   	font-family: verdana, sans-serif; 
   	color: #1c5f7c;
   	text-shadow: 3px 3px 8px #A808E2;
-  	padding: 14px 10px;
+  	padding: 1.4% 1%;
 }
 /* This is the start of the colored links*/
 a:link{
@@ -63,51 +78,77 @@ q {
 	color: #A808E2;
 }
 
-#one li {
-	display:inline;
-	padding: 10px 50px;
-	font-size:20px;
-	text-shadow: 1px 1px 1px #000;
-	color:#000;
-	border: 3px solid #000;
-	border-radius:10px;
-}	
-
 li {
 	font-family: 'Bree Serif', serif;
 	color: #000;
 	line-height: 1.8;	
-	font-size:22px;
-	background: #fff;
+	background: rgba(98,195,249,2);
 }
 /* start of styling elements*/
+
+#one li {
+	display: inline-block;
+	padding: 1% 10% 1% 1%;
+	margin: 2.8%;
+	font-size: 2m;
+	text-shadow: 1px 1px 1px #000;
+	color:#000;
+	border: 1px solid #000;
+	border-radius:4px;
+}
 #two {
 	background-color: rgba(98,195,249,2);
 	border-radius: 6px 12px;
-	box-shadow: 10px 10px 5px #888888
+	box-shadow: 10px 10px 5px #888888;
+	padding: 1% 5% 1% 1%;
+	float: left;
+	display: block;
+    width: 36%;
+    margin: 1%;
+    font-size:22.5m;
 }
 
 #three {
 	background-color: rgba(98,195,249,2);
 	border-radius: 6px 12px;
-	box-shadow: 10px 10px 5px #888888
+	box-shadow: 10px 10px 5px #888888;
+	padding: 1% 5% 1% 1%;
+	float: right;
+	display: block;
+    width: 36%;
+    margin: 1%;
+    font-size:20m;
 }
 
-#six{
+#twothree {
+	width: 96%;
+	float: left;
+	clear: both;
+	
+}
+#five {
+	width: 48%;
+    margin: 1%;
+    font-size:20m;
+}
+#six {
 	background-color: rgba(98,195,249,2);
 	border-radius: 6px 12px;
-	box-shadow: 10px 10px 5px #888888
+	box-shadow: 10px 10px 5px #888888;
+	width: 52%;
 }
 
 #seven{
 	background-color: rgba(98,195,249,2);
 	border-radius: 6px 12px;
-	box-shadow: 10px 10px 5px #888888
+	box-shadow: 10px 10px 5px #888888;
+	width: 52%;
 }
 
 #eight {
 	background-color: rgba(98,195,249,2);
 	border-radius: 6px 12px;
-	box-shadow: 10px 10px 5px #888888
+	box-shadow: 10px 10px 5px #888888;
+	width: 52%;
 }
 /*end of styling elements*/
