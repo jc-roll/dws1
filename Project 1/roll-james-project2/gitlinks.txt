@@ -1,4 +1,5 @@
-Github URL
+Github URL:
 https://github.com/jc-roll/dws1/
-I hope this is the live site I am not sure.I looked every where for more information defining live site.
-file:///Users/jamesroll/Desktop/dws1/dws1/Project%201/index.html
+
+Live Site:
+http://jc-roll.github.io/dws1/Project%201/roll-james-project2/index.html
