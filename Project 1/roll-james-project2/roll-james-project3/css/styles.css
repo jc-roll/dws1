@@ -16,7 +16,7 @@ body {
 	overflow: hidden;
 	background: url("../images/volleyball.png") no-repeat;/*Image of a volleyball*/
 	background-attachment: fixed;
-	background-repeat: none;
+	background-repeat: no-repeat;
 	background-position: 6% 6%; /*Places the volleyball in the top left*/
 	
 	
@@ -48,7 +48,7 @@ h1 {
 #Email {
 	color:brown;
 	padding: .2% .3%;
-	font-size: 1.4m;
+	font-size: 1.4em;
 }
 
 p strong {
