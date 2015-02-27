@@ -27,13 +27,43 @@ table {
 }
 th {
 	text-align: left;
-	text-transform: uppercase;
+	text-transform: uppercase; /*all uppercase*/
 	border-top: 6px solid #000;
 	border-bottom: 3px solid #000;
 	border-spacing: 2px;
 	padding: .2%;
-	letter-spacing: 2px;
+	letter-spacing: 2px; /*with the addition of uppercase letter spacing looks better*/
 	
+}
+input {
+	font-size: 1.4em;
+	color: #fff;
+	background-color: #999;
+	border: 2px solid #000;
+	border-radius: 4px;
+	padding: 5px;
+	margin: 0 5px;
+}
+label {
+	font-size: 1.4em;
+	color: #fff;
+	background-color: #999;
+	border: 2px solid #000;
+	border-radius: 4px;
+	padding: 5px;
+	margin: 0 5px;
+}
+input:focus, input:hover { /*additional hover and focus*/
+	font-size: 1.4em;
+	background-color: #fff;
+	border: 2px solid #000;
+	color: #000;
+	padding: 2% 3%;
+}
+#form { /*basic form*/
+	margin-bottom: 2px;
+	width: 40%;
+
 }
 tr {
 	font-size: .5em;
@@ -44,7 +74,7 @@ td {
 	border: 1px solid #000;
 	text-align: center;
 }
-th:hover {
+th:hover { /* when hovering over days of the week they glow green*/
 	color:#08DD28;
 	text-decoration: underline;
 }
